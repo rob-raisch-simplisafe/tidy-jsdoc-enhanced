@@ -29,7 +29,7 @@
   --nav-bg-color: var(--ss-brand-blue);
   --nav-heading-display: block;
   --nav-heading-color: var(--ss-white);
-  --ss-nav-link-color: var(--nav-title-color);
+  --nav-link-color: var(--nav-title-color);
   --nav-text-color: #aaa;
   --nav-type-class-color: #fff;
   --nav-type-class-bg: #FF8C00;
