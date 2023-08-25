@@ -1,18 +1,18 @@
 {
-  "name": "tidy-jsdoc",
-  "version": "1.4.1",
-  "author": "Julie Ng <hello@julie.io>",
+  "name": "tidy-jsdoc-enhanced",
+  "version": "1.4.2",
+  "author": "Rob Raisch <raisch@gmail.com>",
   "license": "Apache-2.0",
-  "description": "A clean JSDoc3 template",
+  "description": "A clean JSDoc3 template (enhanced for SS)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julie-ng/tidy-jsdoc.git"
+    "url": "https://github.com/rob-raisch-simplisafe/tidy-jsdoc-enhanced.git"
   },
   "keywords": [
     "jsdoc",
     "template"
   ],
-  "homepage": "https://github.com/julie-ng/tidy-jsdoc",
+  "homepage": "forked from - https://github.com/julie-ng/tidy-jsdoc",
   "scripts": {
     "sass": "gulp sass",
     "sass:watch": "gulp sass:watch",
