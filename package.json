@@ -19,7 +19,6 @@
     "preflight": "npm run sass & npm audit"
   },
   "dependencies": {
-    "jsdoc": "^3.6.3",
     "taffydb": "^2.7.3",
     "util": "^0.10.3"
   },
@@ -27,7 +26,8 @@
     "bootstrap": "^4.3.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
-    "marked": "^0.7.0",
+    "jsdoc": "^4.0.2",
+    "marked": "^7.0.4",
     "sass": "^1.45.2",
     "tar": "^6.1.11"
   },
