@@ -419,6 +419,7 @@ function buildNav(members) {
     nav = nav.concat(buildMemberNav(members.interfaces, "Interfaces", seen, linkto));
 
     if (members.globals.length) {
+        nav.push('<ul>') // RR cleaned up Globals in NavBar
         nav.push(buildNavHeading(linkto('global', 'Globals')))
 
         members.globals.forEach(function (item) {
@@ -428,6 +429,7 @@ function buildNav(members) {
 
             seen[item.longname] = true
         })
+        nav.push('</ul>') // RR cleaned up Globals in NavBar
     }
 
     return nav.join('');
