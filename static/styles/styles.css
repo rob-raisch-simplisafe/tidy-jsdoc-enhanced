@@ -3,6 +3,7 @@
   --ss-white: #ffffff;
   --ss-red: #fe0000;
   --ss-light-green: #a0ee80;
+  --ss-light-yellow: #f0ee40;
   --ss-light-purple: #a0a0ee;
   --ss-brand-orange: #f89c25;
   --ss-brand-blue: #0f2644;
@@ -37,8 +38,8 @@
   --nav-type-member-bg: var(--ss-light-purple);
   --nav-type-function-color: var(--ss-black);
   --nav-type-function-bg: var(--ss-light-green);
-  --nav-type-namespace-color: #eb6420;
-  --nav-type-namespace-bg: #fad8c7;
+  --nav-type-namespace-color: var(--ss-black);
+  --nav-type-namespace-bg: var(--ss-light-yellow);
   --nav-type-typedef-color: #964cb1;
   --nav-type-typedef-bg: #f2e4f7;
   --nav-type-module-color: var(--ss-black);
