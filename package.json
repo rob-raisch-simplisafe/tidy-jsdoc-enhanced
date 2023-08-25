@@ -16,7 +16,8 @@
   "scripts": {
     "sass": "gulp sass",
     "sass:watch": "gulp sass:watch",
-    "preflight": "npm run sass & npm audit"
+    "preflight": "npm run sass & npm audit",
+    "preinstall": "cat ./INSTALL-NOTE.txt"
   },
   "dependencies": {
     "taffydb": "^2.7.3",

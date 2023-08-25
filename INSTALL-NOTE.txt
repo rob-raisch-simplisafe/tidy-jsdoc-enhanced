@@ -1,0 +1,13 @@
+.
+.
+========================================================
+Expect 1 high severity vulnerabilities due to dependency 
+on taffydb, which is badly broken.
+
+This shouldn't matter if you only use this jsdoc template
+LOCALLY.
+
+If there's interest, I'll see if I can replace taffydb. /robr
+========================================================
+.
+.
