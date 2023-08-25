@@ -145,7 +145,8 @@ code {
   font-weight: var(--nav-title-font-weight);
   text-align: var(--nav-title-align);
 }
-.layout-header h1 a:link, .layout-header h1 a:visited {
+.layout-header h1 a:link,
+.layout-header h1 a:visited {
   color: var(--nav-title-color);
 }
 .layout-header img {
@@ -176,7 +177,8 @@ code {
 .layout-nav a {
   color: var(--nav-link-color);
 }
-.layout-nav a:link, .layout-nav a a:visited {
+.layout-nav a:link,
+.layout-nav a a:visited {
   color: var(--nav-link-color);
 }
 
@@ -196,6 +198,10 @@ code {
 }
 .nav-heading .nav-item-type {
   font-size: 0.9em;
+}
+
+.nav-item {
+  margin-left: 1em;
 }
 
 .nav-item-type {

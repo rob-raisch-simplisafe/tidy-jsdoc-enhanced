@@ -33,7 +33,8 @@
     font-weight: var(--nav-title-font-weight);
     text-align: var(--nav-title-align);
 
-    a:link, a:visited {
+    a:link,
+    a:visited {
       color: var(--nav-title-color);
     }
   }
@@ -73,7 +74,8 @@
   a {
     color: var(--nav-link-color);
 
-    &:link, a:visited {
+    &:link,
+    a:visited {
       color: var(--nav-link-color);
     }
   }
@@ -89,7 +91,8 @@
 
   a {
     color: var(--nav-link-color);
-    &:link, &:visited {
+    &:link,
+    &:visited {
       color: var(--nav-link-color);
     }
   }
@@ -97,6 +100,10 @@
   .nav-item-type {
     font-size: 0.9em;
   }
+}
+
+.nav-item {
+  margin-left: 1em;
 }
 
 // colors based on esdoc
@@ -128,22 +135,22 @@
   }
 
   &.type-namespace {
-    color:  var(--nav-type-namespace-color);
+    color: var(--nav-type-namespace-color);
     background: var(--nav-type-namespace-bg);
   }
 
   &.type-member {
-    color:  var(--nav-type-member-color);
+    color: var(--nav-type-member-color);
     background: var(--nav-type-member-bg);
   }
 
   &.type-module {
-    color:  var(--nav-type-module-color);
+    color: var(--nav-type-module-color);
     background: var(--nav-type-module-bg);
   }
 
   &.type-event {
-    color:  var(--nav-type-event-color);
+    color: var(--nav-type-event-color);
     background: var(--nav-type-event-bg);
   }
 }
